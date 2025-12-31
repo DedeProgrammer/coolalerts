@@ -1,0 +1,7 @@
+:root {
+    --backgroundColor: light-dark(#f1f4f9, #0c1421);
+    --borderColor: light-dark(rgba(206, 206, 206, 0.605), rgb(55, 55, 55));
+    --mainColor: rgb(70, 85, 186);
+    --mainFont: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --textColor: light-dark(#0c1421, #f1f4f9);
+}

@@ -1,0 +1,7 @@
+@import url("../fonts/mainfonts.css");
+@import url("./variables.css");
+
+.coolalerts-default-font, .coolalerts-default-font * {
+    font-family: var(--mainFont);
+    font-weight: 600;
+}

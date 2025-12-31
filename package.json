@@ -1,0 +1,16 @@
+{
+    "name": "coolalerts",
+    "version": "2.0.0",
+    "author": "Dennis (https://github.com/DedeProgrammer)",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "browser": "dist/coolalerts.min.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DedeProgrammer/cool-alerts.git"
+    },
+    "bugs": {
+        "url": "https://github.com/DedeProgrammer/coolAlerts/issues"
+    },
+    "sideEffects": false
+}

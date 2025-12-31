@@ -1,0 +1,74 @@
+@import url("./main.css");
+@import url("./variables.css");
+
+#modal-integration {
+    background-color: var(--backgroundColor);
+    border: none;
+    box-sizing: border-box;
+    color-scheme: light dark;
+    height: 100%; 
+    max-height: none;
+    max-width: none; 
+    padding: 0rem 1rem;
+    width: 100%; 
+}
+
+#modal-title {
+    color: var(--textColor);
+    font-size: 2rem;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 0.5rem 1rem 0 1rem;
+    white-space: nowrap;    
+    width: 72%;
+    text-overflow: ellipsis;
+}
+
+#modal-content {
+    position: absolute;
+    top: 4.5rem;
+    left: 2.5rem;
+    right: 2.5em;
+    bottom: 5rem;
+    overflow: auto;
+    white-space: wrap;
+    color: var(--textColor);
+    font-size: clamp(1.25rem, calc(2.5vw + 0.05rem), 1.35rem);
+    font-weight: lighter;
+    line-height: 1.7em;
+}
+
+#modal-btn {
+    position: absolute;
+    bottom: 1.3rem;
+    right: 2.5rem;
+    padding: 5px 10%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    background-color: var(--mainColor);
+    border: 2px solid var(--borderColor);
+    outline-offset: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    overflow: hidden;
+    white-space: nowrap;   
+    width: 62%;
+    text-overflow: ellipsis;
+}
+
+@media (min-width: 1070px) and (forced-colors: none) {
+    #modal-integration {
+        width: 75%;
+        height: 70%;
+        border-radius: 12px;
+    }
+
+    #modal-title {
+        font-size: 1.8rem;
+    }
+
+    #modal-content {
+        font-size: 1.2rem;
+    }
+}
