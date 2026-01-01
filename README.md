@@ -7,7 +7,7 @@ CoolAlerts is an open-source software that takes away the "paperwork" like acces
 To load the modal extension into your project, use this command in your HTML:
 
 ```html 
-    <script src="https://cdn.jsdelivr.net/gh/DedeProgrammer/coolalerts@main/dist/coolalerts.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/DedeProgrammer/coolalerts@main/dist/coolalerts.min.js"></script>
 ```
 
 Here are a few functions of CoolAlerts:
@@ -54,5 +54,6 @@ Or:
 ### Notes
 
 A more detailed explanation for using the full library (ESM/Modules) will be added during 2026.
+
 
 More extensions will be added in the near future!
